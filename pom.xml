@@ -4,13 +4,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.mastercard</groupId>
-    <artifactId>RestJerseyTraining</artifactId>
+    <artifactId>RestJerseyTrainingTutor</artifactId>
     <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
-    <name>RestJerseyTraining</name>
+    <name>RestJerseyTrainingTutor</name>
 
     <build>
-        <finalName>RestJerseyTraining</finalName>
+        <finalName>RestJerseyTrainingTutor</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -25,7 +25,8 @@
             <plugin>
                 <groupId>org.eclipse.jetty</groupId>
                 <artifactId>jetty-maven-plugin</artifactId>
-                <version>9.4.6.v20170531</version>
+<!--                 <version>9.4.6.v20170531</version> -->
+				<version>9.3.0.v20150612</version>
                 <configuration>
                     <scanIntervalSeconds>1</scanIntervalSeconds>
                 </configuration>
